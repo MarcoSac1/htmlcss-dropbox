@@ -103,11 +103,13 @@ article.card{
 }
 
 article.card > div.piani{
-    border: 1px solid;
+    border: 2px solid #e6e6e7;
     width: calc((100% / 3) - 1rem);
-    padding: 1rem;
+    /* padding: 1rem; */
     margin-bottom: 1.5rem;
 }
+
+
 article.card > div.piani-full-width{
     width: 100vh;
     border: 1px solid;
@@ -116,8 +118,18 @@ article.card > div.piani-full-width{
 }
 
 .centered ul{
-    list-style:circle;
+    list-style: none;
     display: block;
+    padding: 1rem;
+}
+
+ul > li{
+    
+    margin-bottom: 1rem;
+}
+
+i{
+    margin-right: .5rem;
 }
 
 .flex{

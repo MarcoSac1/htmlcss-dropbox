@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+
+body{
+    font-family: open sans-serif;
+}
+
+
 header{
     padding: 2rem;
     display:flex ;
@@ -18,7 +24,7 @@ header section{
 }
 
 .main-logo{
-    width: 10rem;
+    width: 8rem;
 }
 ul{
     list-style-type: none;
@@ -49,19 +55,24 @@ li:nth-last-child(1){
 .jumbo-article{
     max-width: 1200px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     margin: auto;
+    padding-top: 3rem;
 }
 .jumbotron-img{
-    width: 60%;
-    margin-top: 100px;
+    width: 100%;
 }
 
 .centered{
     width: 1000px;
     align-items: center;
     margin:auto;
+}
+
+.titolo{
+    width: 100%;
+    align-items: center;
 }
 
 article.card{
@@ -157,5 +168,23 @@ div .box{
 
 .ask{
     padding: 3rem;
+    margin: 0 auto;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer section nav ul{
+    display: block;
+    padding-bottom: 3rem;
+    
+}
+
+footer section div {
+    border-top: 1px solid white;
+    width: 10%;
     
 }

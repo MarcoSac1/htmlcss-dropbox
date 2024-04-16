@@ -5,8 +5,12 @@
 }
 
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+
+
+.body{
+    font-family: "Open Sans", sans-serif;
+    
+    
 }
 
 header{
@@ -100,29 +104,38 @@ article.card{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 article.card > div.piani{
     border: 2px solid #e6e6e7;
-    width: calc((100% / 3) - 1rem);
-    /* padding: 1rem; */
+    width: calc((90% / 3) - .5rem);
     margin-bottom: 1.5rem;
+    
 }
 
-
-article.card > div.piani-full-width{
-    width: 100vh;
-    border: 1px solid;
+article.card,
+div.piani > p{
+    align-items: center;
+    display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: .5rem;
+    align-items: flex-start;
+    align-items: stretch;
+    
 }
 
+div.piani >p{
+    border-bottom:2px solid #e6e6e7;
+    justify-content: center;
+}
 .centered ul{
     list-style: none;
     display: block;
-    padding: 1rem;
+    padding-top: 1.5rem ;
 }
 
+div.piani
 ul > li{
     
     margin-bottom: 1rem;
@@ -130,6 +143,26 @@ ul > li{
 
 i{
     margin-right: .5rem;
+}
+
+#full-width{
+    width: 100vh;
+}
+
+.margin-bottom{
+    margin-bottom: 3.5rem;
+}
+
+.spacebetween{
+    justify-content: space-between;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+#blue{
+    color: #0061ff
 }
 
 .flex{
@@ -141,11 +174,11 @@ div.column{
 }
 
 div.column-big{
-    width: 66%;
+    width: 60%;
 }
 
 div.column-small{
-    width: 33%;
+    width: 30%;
 }
 img{
     width: 100%;
@@ -153,7 +186,19 @@ img{
 
 h2{
     width: 100%;
-    font-size: 40px;
+    font-size: 1.5rem;
+}
+
+.white-button{
+    border: black solid 2px;
+    background-color: white;
+    color: black;
+}
+.bottom6{
+    margin-bottom: 6rem;
+}
+p{
+    margin: 1rem 0;
 }
 
 section.info{

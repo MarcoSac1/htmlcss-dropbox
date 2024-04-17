@@ -75,12 +75,12 @@ li:nth-last-child(1){
     width: 100%;
     align-items: center;
     font-size: 70px;
-    margin-bottom: 2.5rem;
+    margin-bottom: 4.5rem;
 }
 
 .DownArrow{
     font-size: 30px;
-    margin-top: 8rem;
+    margin-top:3rem;
 }
 
 .margin-bottom{
@@ -212,28 +212,34 @@ section.info > div.column{
     width: calc((100%/3) - 1rem);
 }
 
+section.info {
+    margin-bottom: 4rem;
+} 
+
+section > div.alf-container{
+    width: 60%;
+}
+
 /* section.sponsor{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
+} */
 
 section.sponsor > div.box{
     width: calc(100%/3);
     
-} */
-
-.box {
-    display: flex;
     flex-wrap: wrap;
-    width: calc(100%/3);
+    
 }
 
-div .box{
+div .box {
     display: flex;
     flex-wrap: wrap;
+    width:calc(100%/4);
 }
+
 
 .free-test{
     padding: 2rem;

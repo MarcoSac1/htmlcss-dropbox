@@ -104,14 +104,12 @@ article.card{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 article.card > div.piani{
     border: 2px solid #e6e6e7;
     width: calc((90% / 3) - .5rem);
     margin-bottom: 1.5rem;
-    
 }
 
 article.card,
@@ -122,11 +120,9 @@ div.piani > p{
     padding: .5rem;
     align-items: flex-start;
     align-items: stretch;
-    
 }
 
 div.piani >p{
-    border-bottom:2px solid #e6e6e7;
     justify-content: center;
 }
 .centered ul{
@@ -137,9 +133,9 @@ div.piani >p{
 
 div.piani
 ul > li{
-    
     margin-bottom: 1rem;
 }
+
 
 i{
     margin-right: .5rem;
@@ -210,6 +206,11 @@ section.info > div.column{
     width: calc((100%/3) - 1rem);
 }
 
+section.info
+div.column > p{
+    padding-top: 2rem;
+}
+
 section.info {
     margin-bottom: 4rem;
 } 
@@ -218,13 +219,6 @@ section > div.alf-container{
     width: 60%;
 }
 
-/* section.sponsor{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-} */
-
 section.sponsor > div.box{
     width: calc(100% / 3);
     flex-wrap: wrap;
@@ -232,13 +226,13 @@ section.sponsor > div.box{
     
 }
 
-/* div > .box.square{
+/* ?????????div.box,
+.square{
+    display: flex;
+    flex-wrap: wrap;
+    border: #0061ff 5px solid;
     color: white;
-    
-}
-section.sponsor > div.box.square{
-    color: white;
-} */
+}  */
 
 .green{
     background-color: #a2d39b;
@@ -341,7 +335,10 @@ ul > li{
 
 h4{
     margin-bottom: .5rem;
+    font-size: 1.5rem;
 }
-
+p.topline{
     padding-top: 2rem;
+
+}
 

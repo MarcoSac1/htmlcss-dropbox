@@ -4,12 +4,8 @@
     box-sizing: border-box;
 }
 
-
-
-
 .body{
-    font-family: "Open Sans", sans-serif;
-    
+    font-family: open sans;
     
 }
 
@@ -125,6 +121,7 @@ div.piani > p{
 div.piani >p{
     justify-content: center;
 }
+
 .centered ul{
     list-style: none;
     display: block;
@@ -135,7 +132,6 @@ div.piani
 ul > li{
     margin-bottom: 1rem;
 }
-
 
 i{
     margin-right: .5rem;
@@ -176,6 +172,7 @@ div.column-big{
 div.column-small{
     width: 30%;
 }
+
 img{
     width: 100%;
 }
@@ -190,10 +187,16 @@ h2{
     background-color: white;
     color: black;
 }
+/* 
+div.piani
+div.column
+p:nth-child(){
+    padding-top: 3rem;
+}  */
+
 .bottom6{
     margin-bottom: 6rem;
 }
-
 
 section.info{
     display: flex;
